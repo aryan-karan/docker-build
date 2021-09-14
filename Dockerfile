@@ -1,12 +1,12 @@
 # Build environment for LineageOS
 
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 MAINTAINER Michael Stucki <michael@stucki.io>
 
 
 ENV \
 # ccache specifics
-    CCACHE_SIZE=50G \
+    CCACHE_SIZE=100G \
     CCACHE_DIR=/srv/ccache \
     USE_CCACHE=1 \
     CCACHE_COMPRESS=1 \
