@@ -21,7 +21,10 @@ git clone https://github.com/aryan-karan/docker-build.git -b me docker
 cd docker
 sudo bash run.sh
 ```
-
+Install docker by
+```
+sudo apt install docker.io -y
+```
 The `run.sh` script accepts the following switches:
 
 | Switch | Alternative | Description  |
